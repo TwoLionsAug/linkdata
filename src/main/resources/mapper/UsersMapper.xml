@@ -1,0 +1,23 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anjiplus.template.gaea.business.modules.users.dao.UsersMapper">
+
+    <resultMap type="com.anjiplus.template.gaea.business.modules.users.dao.entity.Users" id="UsersMap">
+        <result property="id" column="id"  />
+        <result property="field_name" column="field_name"  />
+        <result property="field_describe" column="field_describe"  />
+        <result property="data_set_coding" column="data_set_coding"  />
+        <result property="field_type" column="field_type"  />
+        <result property="data_set_field" column="data_set_field"  />
+        <result property="data_type" column="data_type"  />
+        <result property="delete_flag" column="delete_flag"  />
+        <result property="create_by" column="create_by"  />
+        <result property="create_time" column="create_time"  />
+        <result property="update_by" column="update_by"  />
+        <result property="update_time" column="update_time"  />
+
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, field_name, field_describe ,data_set_field,data_set_coding, type, data_type, delete_flag, create_by, create_time, update_by, update_time
+    </sql>
+</mapper>

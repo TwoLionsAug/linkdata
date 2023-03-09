@@ -1,0 +1,11 @@
+# 该文件配置会继承bootstrap.xml，只需要配置数据库等差异配置
+spring:
+  datasource:
+    url: xx
+    username: xx
+    password: xx
+
+customer:
+  file:
+    dist-path: /root/resource/nginx/img/
+    downloadPath: https://jy.youbaobao.xyz/img
